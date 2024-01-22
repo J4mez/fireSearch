@@ -12,19 +12,14 @@
     },
 
     "background": {
-        "scripts": [
-            "app/background.js"
-        ]
+        "scripts": ["app/background.js"]
     },
 
     "permissions": ["activeTab", "contextMenus", "notifications"],
 
     "browser_specific_settings": {
         "gecko": {
-          "id": "FireSearch@morge.news"
+            "id": "FireSearch@morge.news"
         }
-      }
-      
-
-
+    }
 }
