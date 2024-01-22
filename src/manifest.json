@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "FireSearch",
     "version": "0.1",
 
@@ -14,11 +14,10 @@
     "background": {
         "scripts": [
             "app/background.js"
-        ],
-        "persistent": false
+        ]
     },
 
-    "permissions": ["activeTab", "contextMenus"]
+    "permissions": ["activeTab", "contextMenus", "notifications"]
 
 
 }
