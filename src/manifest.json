@@ -17,7 +17,14 @@
         ]
     },
 
-    "permissions": ["activeTab", "contextMenus", "notifications"]
+    "permissions": ["activeTab", "contextMenus", "notifications"],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "FireSearch@morge.news"
+        }
+      }
+      
 
 
 }
