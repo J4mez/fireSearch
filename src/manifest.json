@@ -12,7 +12,8 @@
     },
 
     "background": {
-        "scripts": ["app/background.js"]
+        "service_worker": "app/background.js",
+        "type": "module"
     },
 
     "permissions": ["activeTab", "contextMenus", "notifications"],
