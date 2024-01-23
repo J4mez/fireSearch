@@ -3,7 +3,7 @@
     "name": "FireSearch",
     "version": "0.2",
 
-    "description": "Reverse image search for Chrome.",
+    "description": "Reverse image search for Firefox.",
 
     "icons": {
         "48": "icons/icon48.png",
@@ -12,7 +12,7 @@
     },
 
     "background": {
-        "service_worker": "app/background.js",
+        "scripts": ["app/background.js"],
         "type": "module"
     },
 
